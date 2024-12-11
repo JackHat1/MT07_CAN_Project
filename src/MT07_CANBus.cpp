@@ -1,8 +1,7 @@
 /*
  * Library: MT07_CANBus
  * Author: Andreas Panagiotakis
- * Date: [Date]
- * License: MIT License
+ * Date: 3/8/2024 
  *
  * Description:
  * This library provides functions for interacting with the MT-07 motorcycle CAN bus.
