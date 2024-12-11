@@ -23,4 +23,4 @@ The library is implemented using the ESP32 microcontroller and the MCP2515 CAN m
 
 This project serves as a foundational tool for telemetry systems, especially in motorsport and research contexts, enabling seamless communication with the MT-07's onboard systems.
 
-[Example Output](docs/output_example.md)
+[Example Output](examples/output_example.md)
