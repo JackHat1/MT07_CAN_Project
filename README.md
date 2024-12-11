@@ -5,8 +5,9 @@
 2. [Hardware Requirements](#hardware-requirements)
 3. [Software Requirements](#software-requirements)
 4. [Future Improvements](#future-improvements)
-5. [Example Output](#example-output)
-6. [License](#license)
+5. [Example Output](examples/output_example.md)
+6. [License](License.txt)
+
 
 ## Hardware Requirements
 
