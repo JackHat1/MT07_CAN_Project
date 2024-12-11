@@ -4,10 +4,9 @@
 1. [Overview](#overview)
 2. [Hardware Requirements](#hardware-requirements)
 3. [Software Requirements](#software-requirements)
-4. [Installation](#installation)
+4. [Future Improvements](#future-improvements)
 5. [Example Output](#example-output)
-6. [Future Improvements](#future-improvements)
-7. [License](#license)
+6. [License](#license)
 
 ## Hardware Requirements
 
@@ -35,5 +34,10 @@ The library is implemented using the ESP32 microcontroller and the MCP2515 CAN m
 - **Modular Design**: Enables easy addition of support for new CAN message IDs or functionality.
 
 This project serves as a foundational tool for telemetry systems, especially in motorsport and research contexts, enabling seamless communication with the MT-07's onboard systems.
+### Future Improvements
+- Support for additional CAN IDs for more data types.
+- Integration with a graphical dashboard for better visualization.
+- Add Bluetooth or Wi-Fi support for wireless telemetry.
 
 [Example Output](examples/output_example.md)
+[License](License.txt)
