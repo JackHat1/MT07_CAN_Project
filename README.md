@@ -40,4 +40,5 @@ This project serves as a foundational tool for telemetry systems, especially in 
 - Add Bluetooth or Wi-Fi support for wireless telemetry.
 
 [Example Output](examples/output_example.md)
+
 [License](License.txt)
