@@ -1,7 +1,7 @@
 /*
  * Library: MT07_CANBus
  * Author: Andreas Panagiotakis
- * Date: [Date]
+ * Date:   3/8/2024
  * License: MIT License
  *
  * Description:
