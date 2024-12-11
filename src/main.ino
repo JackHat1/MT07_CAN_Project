@@ -34,7 +34,7 @@
 
 #include "MT07_CANBus.h"
 
-const int CS_PIN = 15;  // Chip select pin for MCP2515
+const int CS_PIN = 5;  // Chip select pin for MCP2515
 MT07_CANBus mt07(CS_PIN);
 
 void setup() {
