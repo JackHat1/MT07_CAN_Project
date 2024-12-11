@@ -10,7 +10,7 @@
 ---
 ### Software Requirements
 - [MCP_CAN Library](https://github.com/coryjfowler/MCP_CAN_lib)
-  - Install via Arduino Library Manager or clone from the GitHub repository.
+- Install via Arduino Library Manager or clone from the GitHub repository.
 - Built-in SPI library
 
 ## Description
