@@ -15,7 +15,7 @@
 - **ESP32**: Microcontroller for processing CAN bus messages.
 - **MCP2515 CAN Bus Module**: Interface for CAN communication.
 - **Yamaha MT-07 (2014 model)**: Source of CAN bus data.
-- **CAN Bus Cables**: For connecting to the motorcycle's CAN network.
+- **CAN Bus Cables**: OBD Adapter Yamaha Motorcycle 4 Pin to OBD2 (CAN-Bus)
 
 ---
 ### Software Requirements
