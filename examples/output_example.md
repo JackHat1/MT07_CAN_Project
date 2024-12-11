@@ -44,7 +44,7 @@ RPM: 2000
 5. **Air Temp**: Shows the air intake temperature in Celsius (e.g., "28.00°C").
 6. **Speed**: Displays the vehicle's speed in km/h (e.g., "65.0 km/h").
 7. **RPM**: Shows engine revolutions per minute (e.g., "7500 RPM").
-8. **Separator**: The "---------------------------" separates readings for better readability.
+
 
 ### Notes
 - The output reflects real-time telemetry data decoded from the MT-07 motorcycle's CAN bus.
