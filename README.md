@@ -8,6 +8,10 @@
 - **CAN Bus Cables**: For connecting to the motorcycle's CAN network.
 
 ---
+### Software Requirements
+- [MCP_CAN Library](https://github.com/coryjfowler/MCP_CAN_lib)
+  - Install via Arduino Library Manager or clone from the GitHub repository.
+- Built-in SPI library
 
 ## Description
 
