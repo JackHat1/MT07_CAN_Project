@@ -1,5 +1,14 @@
 ![csm_FS_TUC-logo-transparent_40e7fd597a](https://github.com/user-attachments/assets/2219371f-b14c-4e27-865a-f8f728e16e57)
 
+## Table of Contents
+1. [Overview](#overview)
+2. [Hardware Requirements](#hardware-requirements)
+3. [Software Requirements](#software-requirements)
+4. [Installation](#installation)
+5. [Example Output](#example-output)
+6. [Future Improvements](#future-improvements)
+7. [License](#license)
+
 ## Hardware Requirements
 
 - **ESP32**: Microcontroller for processing CAN bus messages.
