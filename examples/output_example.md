@@ -2,37 +2,14 @@
 
 ```plaintext
 MT-07 CANBus initialized successfully.
+TPS: 45.12% | RPM: 2300 | Gear Position: Neutral (N) | Motor Temp: 52.50°C | Air Temp: 22.00°C | Speed: 40.25 km/h
+TPS: 60.23% | RPM: 3500 | Gear Position: First Gear (1) | Motor Temp: 55.75°C | Air Temp: 21.75°C | Speed: 65.00 km/h
+TPS: 72.58% | RPM: 4200 | Gear Position: Second Gear (2) | Motor Temp: 58.50°C | Air Temp: 22.25°C | Speed: 85.50 km/h
+TPS: 84.14% | RPM: 5000 | Gear Position: Third Gear (3) | Motor Temp: 60.00°C | Air Temp: 23.00°C | Speed: 105.75 km/h
+TPS: 92.48% | RPM: 6500 | Gear Position: Fourth Gear (4) | Motor Temp: 62.25°C | Air Temp: 22.50°C | Speed: 130.00 km/h
+TPS: 98.00% | RPM: 7000 | Gear Position: Fifth Gear (5) | Motor Temp: 64.00°C | Air Temp: 23.25°C | Speed: 150.00 km/h
+TPS: 100.00% | RPM: 8000 | Gear Position: Sixth Gear (6) | Motor Temp: 66.50°C | Air Temp: 23.50°C | Speed: 175.00 km/h
 
-Gear Position: 2nd Gear
-TPS: 45.6%
-Motor Temp: 90.00°C
-Air Temp: 28.00°C
-Speed: 65.0 km/h
-RPM: 7500
----------------------------
-
-Gear Position: 3rd Gear
-TPS: 78.2%
-Motor Temp: 95.00°C
-Air Temp: 30.00°C
-Speed: 85.0 km/h
-RPM: 8200
----------------------------
-
-Gear Position: Neutral
-TPS: 0.0%
-Motor Temp: 88.00°C
-Air Temp: 28.00°C
-Speed: 0.0 km/h
-RPM: 1000
----------------------------
-
-Gear Position: 1st Gear
-TPS: 15.5%
-Motor Temp: 92.00°C
-Air Temp: 29.00°C
-Speed: 15.0 km/h
-RPM: 2000
 ---------------------------
 ```
 
