@@ -28,3 +28,4 @@ TPS: 100.00% | RPM: 8000 | Gear Position: Sixth Gear (6) | Motor Temp: 66.50°C 
 - Readings are updated dynamically as messages are received.
 - Values may vary based on the motorcycle's current operating conditions.
 
+1
