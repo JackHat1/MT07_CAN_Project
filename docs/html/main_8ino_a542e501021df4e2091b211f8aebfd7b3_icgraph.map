@@ -1,7 +1,0 @@
-<map id="mt07" name="mt07">
-<area shape="rect" id="Node000001" title="Instance of the MT07_CANBus class." alt="" coords="107,31,157,57"/>
-<area shape="rect" id="Node000002" href="$main_8ino.html#afe461d27b9c48d5921c00d521181f12f" title="Arduino loop function." alt="" coords="9,5,55,32"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="91,37,54,27,56,22,93,31"/>
-<area shape="rect" id="Node000003" href="$main_8ino.html#a4fc01d736fe50cf5b977f755b675f11d" title="Arduino setup function." alt="" coords="5,56,59,83"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="92,57,60,65,58,60,91,52"/>
-</map>
