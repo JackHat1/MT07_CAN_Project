@@ -1,42 +1,38 @@
-/*
- * Project: MT07 CAN Bus Interface
- * Author: Andreas Panagiotakis
- * Date: 3/8/2024
- * License: MIT License
- * 
- * Description:
- * This program uses the MT07_CANBus library to interact with the CAN bus of a Yamaha MT-07 motorcycle (2014 model).
+/**
+ * \file main.ino
+ * \brief Main program for MT-07 CAN Bus Interface.
+ *
+ * \details This program uses the MT07_CANBus library to interact with the CAN bus of a Yamaha MT-07 motorcycle (2014 model).
  * It initializes the CAN bus, decodes incoming messages, and displays the following data in real-time:
  * - Gear position
  * - Throttle position sensor (TPS)
  * - Motor and air temperature
  * - Speed and RPM
- * 
- * Usage:
+ *
+ * \author Andreas Panagiotakis
+ * \date 2024-08-03
+ * \license MIT License
+ *
+ * \usage
  * - Connect the MCP2515 module to the ESP32.
  * - Wire the CAN bus to the motorcycle.
  * - Compile and upload the program to the ESP32.
  * - View the decoded data in the Serial Monitor at 115200 baud.
- * 
- * License Information:
- * Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated 
- * documentation files (the "Software"), to deal in the Software without restriction, including without limitation 
- * the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, 
- * and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
- * 
- * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
- * 
- * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE 
- * WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR 
- * COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR 
- * OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
  */
 
 #include "MT07_CANBus.h"
 
-const int CS_PIN = 5;  // Chip select pin for MCP2515
+/// Chip select pin for MCP2515
+const int CS_PIN = 5;
+
+/// Instance of the MT07_CANBus class
 MT07_CANBus mt07(CS_PIN);
 
+/**
+ * \brief Arduino setup function.
+ *
+ * Initializes the Serial Monitor and CAN bus. If the CAN bus fails to initialize, the program halts.
+ */
 void setup() {
     Serial.begin(115200);
     
@@ -48,6 +44,11 @@ void setup() {
     }
 }
 
+/**
+ * \brief Arduino loop function.
+ *
+ * Checks for incoming CAN messages, processes them, and displays the decoded data in the Serial Monitor.
+ */
 void loop() {
     unsigned long rxId;
     byte rxBuf[8];
