@@ -85,14 +85,12 @@ String MT07_CAN::getGearPosition() {
 
 // getMotorTemp() - Returns the motor temperature in °C
 String MT07_CAN::getMotorTemp() {
-    float temp = decodeMotorTemp(motorTempValue);
-    return MotorTemp_to_String(temp);
+    return decodeMotorTemp(motorTempValue);
 }
 
 // getAirTemp() - Returns the air temperature in °C
 String MT07_CAN::getAirTemp() {
-    float temp = decodeAirTemp(airTempValue);
-    return AirTemP_to_String(temp);
+    return decodeAirTemp(airTempValue);
 }
 
 // getSpeed() - Returns the average speed calculated from received data
@@ -122,31 +120,20 @@ String MT07_CAN::decodeGearPosition(byte data) {
 
 // Decodes the motor temperature based on raw byte data
 String MT07_CAN::decodeMotorTemp(byte data) {
-    // Convert raw byte data to temperature in °C
-    float temp = (data - 0x70) * 0.625 + 40;
-    return temp;
-}
-
-// Decodes the motor temperature based on raw byte data to string
-String MT07_CAN::MotorTemp_to_String(byte data) {
     if (data < 0x70) return "LO"; // Low temperature range
     if (data > 0xEA) return "HI"; // High temperature range
     // Convert raw byte data to temperature in °C
-    return String(data, 2) + "°C";
+    float temp = (data - 0x70) * 0.625 + 40;
+    return String(temp, 2) + "°C";
 }
 
 // Decodes the air temperature based on raw byte data
 String MT07_CAN::decodeAirTemp(byte data) {
-    float temp = (data - 0x30) * 0.625;
-    return temp;
-}
-// Decodes the air temperature based on raw byte data to string
-String MT07_CAN::AirTemP_to_String(byte data) {
     if (data < 0x21) return "LO"; // Low temperature range
     if (data > 0xCF) return "HI"; // High temperature range
     // Convert raw byte data to temperature in °C
     float temp = (data - 0x30) * 0.625;
-    return String(data, 2) + "°C";
+    return String(temp, 2) + "°C";
 }
 
 // Decodes the speed based on the sum of speed values and count
