@@ -6,8 +6,9 @@
 3. [Software Requirements](#software-requirements)
 4. [Future Improvements](#future-improvements)
 5. [Troubleshooting](#Troubleshooting)
-6. [Example Output](examples/output_example.md)
-7. [License](License.txt)
+6. [Documentationu](#Documentation)
+7. [Example Output](examples/output_example.md)
+8. [License](License.txt)
 
 
 ## Hardware Requirements
@@ -64,7 +65,11 @@ This project serves as a foundational tool for telemetry systems, especially in 
   2. Verify that the grounding is secure and consistent across all devices.
   3. Double-check the decoding logic in the library for compatibility with the MT-07's CAN protocol.
 
+#### 4. Documentation
+
+The documentation for this project can be found [here](docs/html/index.html).
 
 [Example Output](examples/output_example.md)
 
 [License](License.txt)
+
