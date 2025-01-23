@@ -6,7 +6,7 @@
 3. [Software Requirements](#software-requirements)
 4. [Future Improvements](#future-improvements)
 5. [Troubleshooting](#Troubleshooting)
-6. [Documentationu](#Documentation)
+6. [Documentation](#Documentation)
 7. [Example Output](examples/output_example.md)
 8. [License](License.txt)
 
@@ -67,7 +67,7 @@ This project serves as a foundational tool for telemetry systems, especially in 
 
 #### 4. Documentation
 
-The documentation for this project can be found [here](docs/html/index.html).
+The documentation for this project can be found [here](https://jackhat1.github.io/MT07_CAN_Project/files.html).
 
 [Example Output](examples/output_example.md)
 
