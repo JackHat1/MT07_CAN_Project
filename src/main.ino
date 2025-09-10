@@ -32,7 +32,7 @@
  * OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
  */
 
-#include "MT07_CANBus.h"
+#include "MT07_CAN_Library.h"
 
 const int CS_PIN = 5;  // Chip select pin for MCP2515
 MT07_CANBus mt07(CS_PIN);
