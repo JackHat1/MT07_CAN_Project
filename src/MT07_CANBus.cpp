@@ -16,7 +16,7 @@
  * - Retrieve decoded values using the respective getter methods.
  */
 
-#include "MT07_CAN.h"
+#include "MT07_CAN_Library.h"
 
 // Constructor: Initializes the member variables
 MT07_CAN::MT07_CAN() : CAN(SPI_CS_PIN) {
@@ -148,3 +148,4 @@ unsigned int MT07_CAN::decodeRPM(byte byte3, byte byte4) {
     unsigned int adjustedRPM = baseRPM + byte4; // Fine adjustment from byte 4
     return adjustedRPM;
 }
+
