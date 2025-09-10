@@ -6,7 +6,7 @@
  * from a Yamaha MT-07 motorcycle using the MCP2515 module.
  */
 
-#include <MT07_CAN.h>
+#include "MT07_CAN_Library.h"
 
 // Initialize MT07_CAN object with SPI CS pin
 const int CS_PIN = 9;
